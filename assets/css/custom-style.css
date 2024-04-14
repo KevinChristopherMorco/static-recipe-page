@@ -1,0 +1,214 @@
+/* Mobile-First */
+:root {
+    --accent-color: #F3E5D8;
+    --first-subheading-color: #6E1E3D;
+    --second-subheading-color: #733E2E;
+    --table-border: #E8E8E8;
+    --card-color: #FFF7FC;
+    --white: #fff;
+    --black: #000;
+  }
+
+  @font-face {
+    font-family: Outfit;
+    src: url(../../assets/fonts/outfit/static/Outfit-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: YoungSerif;
+    src: url(../../assets/fonts/young-serif/YoungSerif-Regular.ttf);
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  body,
+  html {
+    width: 100%;
+    height: 100%;
+    background-color: var(--accent-color);
+  }
+
+  h1 {
+    font-family: YoungSerif;
+  }
+
+  hr {
+    border-top: 0.2rem solid var(--table-border);
+  }
+
+  .main-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-recipe-container {
+    width: 100%;
+    background-color: var(--white);
+    border-radius: 1.25rem;
+  }
+
+  .main-recipe-container .recipe-header {
+    width: 100%;
+    height: 25%;
+    border-top-left-radius: 1.25rem;
+    border-top-right-radius: 1.25rem;
+
+  }
+
+  .main-recipe-container .recipe-header>img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .recipe-content-container {
+    width: 100%;
+    height: auto;
+    padding: 1.25rem;
+  }
+
+  .recipe-content-container .main-heading {
+    font-family: YoungSerif;
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+
+  .recipe-content-container .recipe-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .recipe-content-container .recipe-card-container .recipe-card {
+    width: 100%;
+    height: auto;
+    padding: 1.25rem;
+    background-color: var(--card-color);
+    border-radius: 0.5rem;
+  }
+
+  .recipe-card-container .recipe-card .sub-heading,
+  .recipe-content-container .recipe-content,
+  .recipe-content-container .recipe-card-container .recipe-card .prep-list {
+    font-family: Outfit;
+  }
+
+
+  .recipe-card-container .recipe-card .sub-heading {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--first-subheading-color);
+  }
+
+  .recipe-content-container .recipe-content .sub-heading {
+    font-family: YoungSerif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--second-subheading-color);
+  }
+
+  .recipe-content-container .recipe-content {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .recipe-content-container .recipe-content p {
+    padding: 1.25rem 0;
+  }
+
+
+
+  .recipe-content-container .recipe-card-container .recipe-card .prep-list {
+    font-size: 1rem;
+  }
+
+  .recipe-content-container .recipe-card-container .recipe-card .prep-list li {
+    margin: 1.25rem;
+    font-weight: 600;
+  }
+
+  .recipe-content-container .recipe-card-container .recipe-card .prep-list li::marker {
+    color: var(--first-subheading-color);
+    font-weight: 700;
+  }
+
+  .recipe-content-container .recipe-card-container .recipe-card .prep-list span {
+    font-weight: 700;
+  }
+
+  .recipe-content-container .recipe-content .step-list {
+    padding: 1.25rem;
+  }
+
+  .recipe-content-container .recipe-content .step-list>li {
+    padding: .5rem 1rem;
+  }
+
+  .recipe-content-container .recipe-content .step-list>li::marker {
+    color: var(--second-subheading-color);
+    font-weight: 700;
+  }
+
+  .recipe-content-container div.recipe-content:nth-of-type(4) .step-list {
+    list-style: decimal;
+  }
+
+  .recipe-content-container div.recipe-content:nth-of-type(4) .step-list span {
+    font-weight: 700;
+  }
+
+  .recipe-content-container .recipe-content .table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .recipe-content-container .recipe-content .table-container table {
+    width: 90%;
+  }
+
+  .recipe-content-container .recipe-content .table-container table td {
+    padding: 0.5rem;
+    border-bottom: 0.2rem solid var(--table-border);
+  }
+
+  .recipe-content-container .recipe-content .table-container table td:nth-child(even) {
+    color: var(--second-subheading-color);
+    font-weight: 700;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .main-recipe-container {
+      overflow: scroll;
+    }
+  }
+
+  @media only screen and (min-width: 1000px) {
+    .main-wrapper{
+        padding: 5rem 0;
+    }
+    .main-recipe-container .recipe-header > img{
+      border-radius: 1.5rem;
+    }
+
+    .main-recipe-container {
+      width: 40%;
+      border-top-left-radius: 1.5rem;
+      border-top-right-radius: 1.5rem;
+    }
+  }
