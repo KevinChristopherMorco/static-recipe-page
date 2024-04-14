@@ -21,7 +21,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Screenshot
 ![FHD view](https://github.com/KevinChristopherMorco/static-recipe-page/blob/main/assets/screenshot/FHD.png?raw=true)
-![Mobile view](https://github.com/KevinChristopherMorco/static-recipe-page/blob/main/assets/screentshot/Mobile.png?raw=true)
+![Mobile view](https://github.com/KevinChristopherMorco/static-recipe-page/blob/main/assets/screenshot/Mobile.png?raw=true)
 
 
 ### Links
