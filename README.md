@@ -11,7 +11,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Useful resources](#useful-resources)
-- [Author](#author)
+- [Author](#about-the-author)
 
 
 ## Overview
@@ -20,8 +20,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - Setting up the responsiveness of elements based on screen size
 
 ### Screenshot
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![FHD view](https://github.com/KevinChristopherMorco/static-recipe-page/blob/main/assets/screenshot/FHD.png?raw=true)
+![Mobile view](https://github.com/KevinChristopherMorco/static-recipe-page/blob/main/assets/screentshot/Mobile.png?raw=true)
 
 
 ### Links
